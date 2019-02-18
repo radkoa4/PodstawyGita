@@ -1,69 +1,71 @@
-1.1. Czym jest git i co umo¿liwia?
+Oto i zmieniona treÅ›Ä‡, teraz tylko skomitowaÄ‡.
 
-Git jest systemem kontroli wersji, czyli programem zapisuj¹cym wszystkie zmiany dokonywane w projekcie na przestrzeni czasu. W ten sposób tworzone s¹ wersje projektu.
-Dziêki gitowi jesteœmy w stanie przegl¹daæ historiê zmian zachodz¹cych w pliku i w razie potrzeby przywróciæ go do poprzedniej wersji.
+1.1. Czym jest git i co umoÅ¼liwia?
 
-1.2. Na czym polega branching i co to s¹ ga³êzie?
+Git jest systemem kontroli wersji, czyli programem zapisujÄ…cym wszystkie zmiany dokonywane w projekcie na przestrzeni czasu. W ten sposÃ³b tworzone sÄ… wersje projektu.
+DziÄ™ki gitowi jesteÅ›my w stanie przeglÄ…daÄ‡ historiÄ™ zmian zachodzÄ…cych w pliku i w razie potrzeby przywrÃ³ciÄ‡ go do poprzedniej wersji.
 
-Branching polega na tworzeniu nowych fukcji aplikacji bez ingerencji w jej g³ówny kod Ÿród³owy. 
-Ga³êzie to w³aœnie te nowe funkcje. Mog¹ byæ one tworzone niezale¿nie od kodu Ÿród³owego aplikacji oraz niezale¿nie modyfikowane, dodawane b¹dŸ usuwane.
+1.2. Na czym polega branching i co to sÄ… gaÅ‚Ä™zie?
+
+Branching polega na tworzeniu nowych fukcji aplikacji bez ingerencji w jej gÅ‚Ã³wny kod ÅºrÃ³dÅ‚owy. 
+GaÅ‚Ä™zie to wÅ‚aÅ›nie te nowe funkcje. MogÄ… byÄ‡ one tworzone niezaleÅ¼nie od kodu ÅºrÃ³dÅ‚owego aplikacji oraz niezaleÅ¼nie modyfikowane, dodawane bÄ…dÅº usuwane.
 
 1.3. Czym jest repozytorium?
 
-Jest to ca³a historia zmian dokonywanych w projekcie oraz jego kod Ÿród³owy.
+Jest to caÅ‚a historia zmian dokonywanych w projekcie oraz jego kod ÅºrÃ³dÅ‚owy.
 
-1.4. Jakie wyró¿nia siê dwa typy repozytorium?
+1.4. Jakie wyrÃ³Å¼nia siÄ™ dwa typy repozytorium?
 
 Repozytorium lokalne i zdalne.
 
 1.5. Czym jest plik .gitignore?
 
-S³u¿y on do tego, aby ¿adne "niepowo³ane" pliki nie trafi³y do naszego repozytorium. Je¿eli Git interpretuje pewne pliki 
-jako czêœæ naszego repo, z pomoc¹ .gitignore mo¿emy "poinformowaæ" gita, ¿eby te pliki zignorowa³.
+SÅ‚uÅ¼y on do tego, aby Å¼adne "niepowoÅ‚ane" pliki nie trafiÅ‚y do naszego repozytorium. JeÅ¼eli Git interpretuje pewne pliki 
+jako czÄ™Å›Ä‡ naszego repo, z pomocÄ… .gitignore moÅ¼emy "poinformowaÄ‡" gita, Å¼eby te pliki zignorowaÅ‚.
 
 1.6. Kto/Co to jest master?
 
-Masterem okreœlamy branch, na którym aktualnie znajduje siê stabilna, "w³aœciwa" wersja projektu, zwykle po³¹czona z serwerem produkcyjnym.
+Masterem okreÅ›lamy branch, na ktÃ³rym aktualnie znajduje siÄ™ stabilna, "wÅ‚aÅ›ciwa" wersja projektu, zwykle poÅ‚Ä…czona z serwerem produkcyjnym.
 
 1.7. Kto/Co to jest collaborators?
 
-Jest to spo³ecznoœæ pracuj¹ca nad jednym projektem.
+Jest to spoÅ‚ecznoÅ›Ä‡ pracujÄ…ca nad jednym projektem.
 
 1.8. Czym jest polecenie commit?
 
-Polecenie commit s³u¿y do wys³ania zmian w kodzie Ÿród³owym aplikacji lub branchu ze stage area do .git folder (lokalne repo).
+Polecenie commit sÅ‚uÅ¼y do wysÅ‚ania zmian w kodzie ÅºrÃ³dÅ‚owym aplikacji lub branchu ze stage area do .git folder (lokalne repo).
 
 1.9. Czym jest klonowanie?
 
-Klonowanie to pobieranie na swój komputer sforkowanego wczeœniej repozytorium. 
+Klonowanie to pobieranie na swÃ³j komputer sforkowanego wczeÅ›niej repozytorium. 
 
 1.10. Czym jest merge a czym rebase?
 
-Merge to funkcja ³¹cz¹ca 2 branche za poœrednictwem u¿ycia commitu. Historia zmian brancha bêdzie widoczna nawet po po³¹czeniu z Masterem. 
-Rebase to równie¿ funkcja ³¹czaca 2 branche, jednak w tym przypadku, wszystkie zmiany z pierwszego branchu "importujemy" do drugiego.
-Historia zmian w branchu po po³¹czeniu z Masterem nie bêdzie widoczna. Zachowamy strukturê liniow¹.
+Merge to funkcja Å‚Ä…czÄ…ca 2 branche za poÅ›rednictwem uÅ¼ycia commitu. Historia zmian brancha bÄ™dzie widoczna nawet po poÅ‚Ä…czeniu z Masterem. 
+Rebase to rÃ³wnieÅ¼ funkcja Å‚Ä…czaca 2 branche, jednak w tym przypadku, wszystkie zmiany z pierwszego branchu "importujemy" do drugiego.
+Historia zmian w branchu po poÅ‚Ä…czeniu z Masterem nie bÄ™dzie widoczna. Zachowamy strukturÄ™ liniowÄ….
 
 1.11. Czym jest Pull Request?
 
-Funkcji Pull Request u¿ywamy w momencie, kiedy zmiany w sklonowanym forku s¹ ju¿ wprowadzone i znajduj¹ siê w œrodowisku zdalnym.
-Pull Request jest wysy³any do "w³aœciciela" repozytorium, jest to niejako proœba o akceptacjê wprowadzonych przez nas zmian.
-Do akceptacji naszego Pull Request s³u¿y funkcja "Merge Pull Request".
+Funkcji Pull Request uÅ¼ywamy w momencie, kiedy zmiany w sklonowanym forku sÄ… juÅ¼ wprowadzone i znajdujÄ… siÄ™ w Å›rodowisku zdalnym.
+Pull Request jest wysyÅ‚any do "wÅ‚aÅ›ciciela" repozytorium, jest to niejako proÅ›ba o akceptacjÄ™ wprowadzonych przez nas zmian.
+Do akceptacji naszego Pull Request sÅ‚uÅ¼y funkcja "Merge Pull Request".
 
-1.12. Co to jest “Fork”
+1.12. Co to jest â€œForkâ€
 
-Fork jest kopi¹ zdalnego repozytorium, utworzon¹ na naszym œrodowisku lokalnym.
-Funkcja ta jest przydatna w sytuacji, kiedy nie mamy uprawnieñ do aktualizacji zdalnego repozytorium.
+Fork jest kopiÄ… zdalnego repozytorium, utworzonÄ… na naszym Å›rodowisku lokalnym.
+Funkcja ta jest przydatna w sytuacji, kiedy nie mamy uprawnieÅ„ do aktualizacji zdalnego repozytorium.
 
-1.13. W jaki sposób poprawnie nazywaæ commit message.
+1.13. W jaki sposÃ³b poprawnie nazywaÄ‡ commit message.
 
-Commit message to komentarz, który pojawi siê w repozytorium przy pozycji ze zmianami, które w³aœnie wys³aliœmy. 
-Aby dodaæ komentarz za pomoc¹ konsoli nale¿y u¿yæ komendy git commit -m "treœæ komentarza",
-lub wywo³aæ uruchomienie edytora tekstu wysy³aj¹c plik komend¹ git commit.
-Ka¿dy komentarz powinien zawieraæ temat oraz treœæ, oddzielone pustym wierszem (pusty wiersz dodamy wy³¹cznie za pomoc¹ edytora tekstu.
-Nie jest to mo¿liwe bezpoœrednio z wiersza poleceñ.
-Nale¿y d¹¿yæ do sytuacji, w której komentarz posiada maksymalnie du¿o treœci w jak najkrótszej formie.
-Dobr¹ praktyk¹ jest ograniczenie treœci tytu³u komentarza do 50 znaków (chodzi g³ównie o zachowanie czytelnoœci przy przegl¹daniu skróconej historii repo w Gicie).
-Nale¿y ograniczyæ d³ugoœæ wiersza treœci komentarza do 72 znaków. Chodzi o czytelnoœæ komentarza w konsoli, która nie bêdzie automatycznie ³amaæ wierszy,
-chyba, ¿e komentarze bêdziemy dodawaæ przez wczeœniej skonfigurowany edytor tekstu.
-Sama treœæ komentarza powinna zawieraæ odpowiedŸ na pytania co i dlaczego zosta³o zmienione.
-Odpowiedz¹ na pytanie "jak" to zosta³o zmienione jest kod Ÿród³owy.
+Commit message to komentarz, ktÃ³ry pojawi siÄ™ w repozytorium przy pozycji ze zmianami, ktÃ³re wÅ‚aÅ›nie wysÅ‚aliÅ›my. 
+Aby dodaÄ‡ komentarz za pomocÄ… konsoli naleÅ¼y uÅ¼yÄ‡ komendy git commit -m "treÅ›Ä‡ komentarza",
+lub wywoÅ‚aÄ‡ uruchomienie edytora tekstu wysyÅ‚ajÄ…c plik komendÄ… git commit.
+KaÅ¼dy komentarz powinien zawieraÄ‡ temat oraz treÅ›Ä‡, oddzielone pustym wierszem (pusty wiersz dodamy wyÅ‚Ä…cznie za pomocÄ… edytora tekstu.
+Nie jest to moÅ¼liwe bezpoÅ›rednio z wiersza poleceÅ„.
+NaleÅ¼y dÄ…Å¼yÄ‡ do sytuacji, w ktÃ³rej komentarz posiada maksymalnie duÅ¼o treÅ›ci w jak najkrÃ³tszej formie.
+DobrÄ… praktykÄ… jest ograniczenie treÅ›ci tytuÅ‚u komentarza do 50 znakÃ³w (chodzi gÅ‚Ã³wnie o zachowanie czytelnoÅ›ci przy przeglÄ…daniu skrÃ³conej historii repo w Gicie).
+NaleÅ¼y ograniczyÄ‡ dÅ‚ugoÅ›Ä‡ wiersza treÅ›ci komentarza do 72 znakÃ³w. Chodzi o czytelnoÅ›Ä‡ komentarza w konsoli, ktÃ³ra nie bÄ™dzie automatycznie Å‚amaÄ‡ wierszy,
+chyba, Å¼e komentarze bÄ™dziemy dodawaÄ‡ przez wczeÅ›niej skonfigurowany edytor tekstu.
+Sama treÅ›Ä‡ komentarza powinna zawieraÄ‡ odpowiedÅº na pytania co i dlaczego zostaÅ‚o zmienione.
+OdpowiedzÄ… na pytanie "jak" to zostaÅ‚o zmienione jest kod ÅºrÃ³dÅ‚owy.
